@@ -1,14 +1,14 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "!";
+var prefix = "+";
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Ùnion- Script By : HemaCraft`);
+      console.log(`+help- Script By : shgamer`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : HemaCraft ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : shgamer ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!help`,"http://twitch.tv/S-F")
+client.user.setGame(`+help`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 client.on('guildMemberAdd', member => { //LAST CODES -HONRAR-
@@ -481,4 +481,4 @@ client.on('message', message =>{
 client.on('guildMemberAdd', member=> {
     member.addRole(member.guild.roles.find("name","member"));
     });
-client.login("NTIzODI3NDEwODAyNTczMzI0.DwJ-Ag.K9AWfrHi1aRqD5X1hGPOqBqK88w");
+client.login("NTI3MjYwMjEwMjUxODI1MTU1.DwRJWQ.y9q2ZnjmW7nrBxObUG6Egw1q_iE");
